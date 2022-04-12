@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('katacoda-nodejs-express-example:server');
+var debug = require('debug')('containerapps-albumapi-javascript:server');
 var http = require('http');
 
 /**
