@@ -7,11 +7,12 @@
     {
       "name": "Node Album API",
       "request": "launch",
+      "preLaunchTask": "build",
       "runtimeArgs": ["run", "start"],
       "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
-      "cwd": "${workspaceFolder}/",
+      "cwd": "${workspaceFolder}/src",
       "console": "integratedTerminal",
       "serverReadyAction": {
         "action": "openExternally"
