@@ -3,7 +3,6 @@ var path = require("path");
 var logger = require("morgan");
 
 var router = require("./routes/index");
-const appPort = process.env.PORT || 3000;
 var app = express();
 
 //enable cors
